@@ -24,7 +24,7 @@ public class AuthTest extends BaseClass {
 	HomePage homePage = new HomePage(driver);
 	Log.info("Homepage is opened");
 	homePage.login();
-	homePage.travelerLogin();
+	/*homePage.travelerLogin();
 	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	homePage.username("tc@devmail.wvrgroup.internal");
 	Log.info("Username Entered");
@@ -61,5 +61,6 @@ public class AuthTest extends BaseClass {
 	//Log.info("Inquiry Sent Successfully");
 	//Assert.assertTrue(true);
 	//propertyDetailsPage.closeModal();
-	}	
+	}*/
+  }
 }

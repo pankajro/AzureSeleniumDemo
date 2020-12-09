@@ -21,7 +21,7 @@ public class BaseClass {
 	public void open()
 	{
 		Log.startLog("InquiryTest is Starting");
-		WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "\\Drivers\\chromedriver_87.exe");
 		driver = new ChromeDriver();
 		Log.info("Opening Homeaway Website");
 		driver.get("https://www.homeaway.com");

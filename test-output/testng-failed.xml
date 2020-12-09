@@ -6,6 +6,7 @@
       <class name="com.project.demo.test.AuthTest">
         <methods>
           <include name="InquiryTest"/>
+          <include name="end"/>
           <include name="open"/>
         </methods>
       </class> <!-- com.project.demo.test.AuthTest -->
