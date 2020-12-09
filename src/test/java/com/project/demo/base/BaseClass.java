@@ -23,8 +23,8 @@ public class BaseClass {
 		Log.startLog("InquiryTest is Starting");
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "\\Drivers\\chromedriver_87.exe");
 		driver = new ChromeDriver();
-		Log.info("Opening Homeaway Website");
-		driver.get("https://www.homeaway.com");
+		Log.info("Opening Google Website");
+		driver.get("https://www.google.com");
 		Log.info("Chrome Browser is opened");
 		driver.manage().window().maximize();
 		Log.info("Browser is maximized");
